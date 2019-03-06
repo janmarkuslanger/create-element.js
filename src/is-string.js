@@ -3,4 +3,4 @@
  * @type {String} s
  * @return {Boolean}
  */
-export const isString = s => typeof s === 'String';
+export const isString = s => typeof s === 'string';
