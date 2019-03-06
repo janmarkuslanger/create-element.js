@@ -10,7 +10,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "rm -rf coverage",
+      "pre-commit": "rm -rf coverage"
     }
   },
   "repository": {
