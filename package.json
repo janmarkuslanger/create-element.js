@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "build-browser": "rollup -c scripts/iife.config.js",
-    "build-umd": "rollup -c scripts/umd.config.js"
+    "build-umd": "rollup -c scripts/umd.config.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
