@@ -4,8 +4,8 @@
   "description": "A very tiny library for creating elements with javascript.",
   "main": "src/index.js",
   "scripts": {
-    "build-browser": "rollup -c scripts/iife.config.js",
-    "build-umd": "rollup -c scripts/umd.config.js",
+    "build": "rollup -c scripts/umd.config.js",
+    "watch": "rollup -c scripts/umd.config.js --watch",
     "test": "jest"
   },
   "husky": {

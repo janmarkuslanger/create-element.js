@@ -5,13 +5,12 @@ import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
 import { uglify } from "rollup-plugin-uglify";
 
-// get the name from our package json
-const name = 'createElement';
+const name = 'Ce';
 
 export default {
     input: 'src/index.js',
     output: {
-        file: 'dist/bundle.umd.js',
+        file: 'dist/ce.js',
         format: 'umd',
         name: name
     },

@@ -1,16 +1,9 @@
-import { isString } from './is-string';
+import h from './h';
 
 /**
- * main function to create elements
- * @param {String} tag
- * @param {Object|Array} args
+ * version
+ * @type {String}
  */
-export const h = (tag, ...args) => {
-  if (!isString(tag)) {
-    throw new Error('No valid tag given')
-  }
+const version = '0.1.0';
 
-  const element = document.createElement(tag);
-
-  return element;
-};
+export { h, version };

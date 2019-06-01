@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script src="dist/ce.js"></script>
+    <script>
+      const h = Ce.h;
+      const myEl = h('div', {click: () => {
+        console.log('sdfsdf')
+      }}, ['sdfsdf', h('h1', {}, ['sdfsdf'])]);
+
+      document.body.appendChild(myEl);
+    </script>
+  </body>
+</html>
