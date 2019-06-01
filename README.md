@@ -17,7 +17,7 @@ A tiny library for creating element with javascript.
 
 ## h
 
-h(**tag** *<string>*, **properties** *<object>*, **childs** *<array>*)
+h(**tag** <string>, **properties** <object>, **childs** <array>)
 
 - tag is the tagname of the element
   (h1, h2, div, span...)
