@@ -9,9 +9,7 @@ A tiny library for creating element with javascript.
 
 ## Install
 
-``` javascript
-  import { h } from 'create-element';
-```
+` npm i create-element-lib`
 
 ## h
 
@@ -24,6 +22,12 @@ h(**tag** <string>, **properties** <object>, **childs** <array>)
 - childs holds the child element and text node
 
 ## Usage
+
+``` javascript
+  import { h } from 'create-element';
+```
+
+## Example
 
 ``` javascript
 const myEl = h('div', {click: () => {

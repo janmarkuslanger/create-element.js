@@ -1,5 +1,5 @@
 {
-  "name": "create-element",
+  "name": "create-element-lib",
   "version": "0.1.0",
   "description": "A very tiny library for creating elements with javascript.",
   "main": "src/index.js",
