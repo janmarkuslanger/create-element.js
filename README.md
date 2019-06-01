@@ -24,7 +24,7 @@ h(**tag** <string>, **properties** <object>, **childs** <array>)
 ## Usage
 
 ``` javascript
-  import { h } from 'create-element';
+  import { h } from 'create-element-lib';
 ```
 
 ## Example
