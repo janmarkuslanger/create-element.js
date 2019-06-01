@@ -1,13 +1,11 @@
 # create-element.js
 A tiny library for creating element with javascript.
 
-## Why?
-- Super fast rendering
+- Compose your elements with javascript
 - Easy to use
-- Well tested with Jest
-- Create every "custom element" you want `<my-super-div></my-super-div>`
-- Modern Code (ES6)
-- Works in every browser (IE9+)
+- Create every element you want `<my-super-div></my-super-div>`
+- Written in ES6
+- Works in every "modern" browser (IE9+)
 
 ## Install
 
