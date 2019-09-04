@@ -29,7 +29,7 @@ const h = (tag, properties = {}, childs = []) => {
   childs.forEach((child) => {
     isString(child)
       ? element.appendChild(document.createTextNode(child))
-      : element.appendChild(child);
+      : (child ? element.appendChild(child) : null);
   });
 
   // return the composed element

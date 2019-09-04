@@ -9,9 +9,12 @@
     <script src="dist/ce.js"></script>
     <script>
       const h = Ce.h;
+
+      let test = null;
+
       const myEl = h('div', {click: () => {
         console.log('sdfsdf')
-      }}, ['sdfsdf', h('h1', {}, ['sdfsdf'])]);
+      }}, ['sdfsdf', h('h1', {}, ['sdfsdf', test])]);
 
       document.body.appendChild(myEl);
     </script>
