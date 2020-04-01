@@ -1,5 +1,5 @@
 # create-element.js
-A tiny library for creating element with javascript.
+A tiny library for creating an element with javascript.
 
 - Compose your elements with javascript
 - Easy to use
@@ -15,9 +15,9 @@ A tiny library for creating element with javascript.
 
 h(**tag** <string>, **properties** <object>, **childs** <array>)
 
-- tag is the tagname of the element
+- tag is the tag name of the element
   (h1, h2, div, span...)
-- properties holds the attributes and event listener of the element
+- properties hold the attributes and event listener of the element
   `{class: 'my-class', click: () => { console.log('hello world')}}`
 - childs holds the child element and text node
 
@@ -36,3 +36,17 @@ const myEl = h('div', {click: () => {
 
 document.body.appendChild(myEl);
 ```
+
+## Questions
+For questions and support feel free to create an issue or write an email to
+janmarkuslanger10121994@gmail.com
+
+## Issues
+If you found a bug, then please create an issue. It will help me a lot to make my work better. :)
+
+## Contribution
+Pull requests are always welcome. I am always happy to see others working on
+my GitHub projects.
+
+## Get in touch
+Write an email to janmarkuslanger10121994@gmail.com :)
