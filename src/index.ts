@@ -4,7 +4,7 @@ type propertiesType = {
 
 const h = (
   tag: string,
-  properties: propertiesType,
+  properties: propertiesType = {},
   ...childs: Array<string | HTMLElement>
 ): HTMLElement => {
   if (!tag) {
