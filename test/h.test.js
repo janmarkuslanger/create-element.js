@@ -1,4 +1,4 @@
-const h = require('../dist/index').default;
+const h = require('../dist/index').h;
 
 afterEach(() => {
   // clear dom

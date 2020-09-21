@@ -37,4 +37,6 @@ const h = (
   return element;
 };
 
-export default h;
+const VERSION = '1.0.0';
+
+export { h, VERSION };
