@@ -18,7 +18,7 @@ const h = (
 
     if (typeof propertyValue === 'function') {
       element.addEventListener(propertyName, e => {
-        propertyValue(e, propertyValue);
+        propertyValue(e, element);
       });
     } else {
       element.setAttribute(propertyName, propertyValue);
